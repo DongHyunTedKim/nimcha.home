@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>HanYoungHater Updates</title>
+    <link>https://donghyuntedkim.github.io/nimcha.home/releases/</link>
+    <description>Latest updates for HanYoungHater</description>
+    <language>en</language>
+    <item>
+      <title>Version 1.0</title>
+      <sparkle:releaseNotesLink>
+        https://donghyuntedkim.github.io/nimcha.home/docs/release-notes.html
+      </sparkle:releaseNotesLink>
+      <pubDate>Wed, 18 Sep 2024 12:00:00 +0000</pubDate>
+      <enclosure url="https://donghyuntedkim.github.io/nimcha.home/releases/HanYoungHater-v1.0.zip"
+                 sparkle:version="1.0"
+                 length="999"
+                 type="application/octet-stream"/>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+    </item>
+  </channel>
+</rss>
