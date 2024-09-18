@@ -1,0 +1,16 @@
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Nimcha Home Updates</title>
+    <link>https://donghyuntedkim.github.io/nimcha.home/</link>
+    <description>Recent updates for Nimcha Home</description>
+    <language>en</language>
+
+    <item>
+      <title>Version 1.0</title>
+      <description>Initial test release</description>
+      <pubDate>Mon, 15 Sep 2024 12:00:00 +0000</pubDate>
+      <enclosure url="https://donghyuntedkim.github.io/nimcha.home/docs/Nimcha-1.0.zip" sparkle:version="1.0" sparkle:shortVersionString="1.0" length="12345" type="application/octet-stream"/>
+      <sparkle:releaseNotesLink>https://donghyuntedkim.github.io/nimcha.home/docs/release-notes-1.0.html</sparkle:releaseNotesLink>
+    </item>
+  </channel>
+</rss>
