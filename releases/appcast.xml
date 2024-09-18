@@ -6,15 +6,15 @@
     <link>https://donghyuntedkim.github.io/nimcha.home/releases/</link>
     <description>Latest updates for HanYoungHater</description>
     <language>en</language>
+    
     <item>
-      <title>Version 1.0</title>
-      <sparkle:releaseNotesLink>
-        https://donghyuntedkim.github.io/nimcha.home/docs/release-notes.html
-      </sparkle:releaseNotesLink>
+      <title>Version 1.0.0</title>
+      <sparkle:releaseNotesLink>https://donghyuntedkim.github.io/nimcha.home/docs/release-notes.html</sparkle:releaseNotesLink>
       <pubDate>Wed, 18 Sep 2024 12:00:00 +0000</pubDate>
-      <enclosure url="https://donghyuntedkim.github.io/nimcha.home/releases/HanYoungHater-v1.0.zip"
-                 sparkle:version="1.0"
-                 length="999"
+      <enclosure url="https://donghyuntedkim.github.io/nimcha.home/releases/HanYoungHater-v1.0.0.zip"
+                 sparkle:version="1000"
+                 sparkle:shortVersionString="1.0.0"
+                 length="12345678"
                  type="application/octet-stream"/>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
     </item>
