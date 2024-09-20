@@ -1,22 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>HanYoungHater Updates</title>
-    <link>https://donghyuntedkim.github.io/nimcha.home/releases/</link>
-    <description>Latest updates for HanYoungHater</description>
-    <language>en</language>
+    <!-- 채널 정보 -->
+    <title>HanYoungHater Updates</title> <!-- 업데이트 피드의 제목 -->
+    <link>https://donghyuntedkim.github.io/nimcha.home/releases/</link> <!-- 업데이트 피드의 링크 -->
+    <description>Latest updates for HanYoungHater</description> <!-- 피드 설명 -->
+    <language>en</language> <!-- 피드 언어 설정 -->
     
     <item>
-      <title>Version 1.0.0</title>
+      <!-- 개별 업데이트 항목 -->
+      <title>Version 1.0.0</title> <!-- 업데이트 버전 제목 -->
       <sparkle:releaseNotesLink>https://donghyuntedkim.github.io/nimcha.home/docs/release-notes.html</sparkle:releaseNotesLink>
-      <pubDate>Wed, 18 Sep 2024 12:00:00 +0000</pubDate>
-      <enclosure url="https://donghyuntedkim.github.io/nimcha.home/releases/HanYoungHater-v1.0.0.zip"
-                 sparkle:version="1000"
-                 sparkle:shortVersionString="1.0.0"
-                 length="12345678"
-                 type="application/octet-stream"/>
-      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <!-- 릴리즈 노트에 대한 링크 -->
+      <pubDate>Fri, 20 Sep 2024 12:00:00 +0000</pubDate> <!-- 업데이트 배포 날짜 -->
+      <enclosure
+        url="https://donghyuntedkim.github.io/nimcha.home/releases/HanYoungHater-v1.0.0.zip"
+        <!-- 업데이트 파일의 다운로드 URL -->
+        sparkle:version="1000"
+        <!-- 내부 버전 번호 (빌드 번호 등, 정수형 값으로 설정) -->
+        sparkle:shortVersionString="1.0.1"
+        <!-- 사용자에게 표시될 버전 문자열 (예: 앱의 마케팅 버전) -->
+        length="12345678"
+        <!-- 업데이트 파일의 크기 (바이트 단위) -->
+        type="application/octet-stream"/>
+        <!-- 파일의 MIME 타입 -->
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <!-- 이 업데이트를 설치할 수 있는 최소 macOS 버전 -->
     </item>
   </channel>
 </rss>
