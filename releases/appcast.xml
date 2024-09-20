@@ -3,28 +3,22 @@
      xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <!-- 채널 정보 -->
-    <title>HanYoungHater Updates</title> <!-- 업데이트 피드의 제목 -->
-    <link>https://donghyuntedkim.github.io/nimcha.home/releases/</link> <!-- 업데이트 피드의 링크 -->
-    <description>Latest updates for HanYoungHater</description> <!-- 피드 설명 -->
-    <language>en</language> <!-- 피드 언어 설정 -->
+    <title>HanYoungHater Updates</title>
+    <link>https://donghyuntedkim.github.io/nimcha.home/releases/</link>
+    <description>Latest updates for HanYoungHater</description>
+    <language>ko</language>
     
     <item>
-      <!-- 개별 업데이트 항목 -->
-      <title>Version 1.0.10</title> <!-- 업데이트 버전 제목 -->
+      <title>Version 1.0.1</title>
       <sparkle:releaseNotesLink>https://donghyuntedkim.github.io/nimcha.home/docs/release-notes.html</sparkle:releaseNotesLink>
-      <!-- 릴리즈 노트에 대한 링크 -->
-      <pubDate>Fri, 20 Sep 2024 12:00:00 +0000</pubDate> <!-- 업데이트 배포 날짜 -->
+      <pubDate>Fri, 20 Sep 2024 12:00:00 +0000</pubDate>
       <enclosure
         url="https://donghyuntedkim.github.io/nimcha.home/releases/HanYoungHater-v1.0.0.zip"
-
         sparkle:version="1010"
         sparkle:shortVersionString="1.0.1"
         length="12345678"
         type="application/octet-stream"/>
-        <!-- 파일의 MIME 타입 -->
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <!-- 이 업데이트를 설치할 수 있는 최소 macOS 버전 -->
     </item>
   </channel>
 </rss>
